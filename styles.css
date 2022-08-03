@@ -266,6 +266,7 @@ list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 250px;
 }
 .card {
   position: relative;
@@ -393,7 +394,17 @@ width: 45%;
       .sotial-networks{
         padding-left: 15px;
       }
-
+      .card .back h3{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+      }
+      .card .back{
+        font-size: 10px;
+      }
+      .portfolio .container{
+        padding-bottom: 0;
+      }
   }
 
  
@@ -403,6 +414,13 @@ width: 45%;
     text-align: center;
     justify-content: center;
     padding-right: 40px;
+  }
+  .card .back h3{
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio .container{
+    padding-bottom: 0;
   }
   footer .footer{
     display: flex;
