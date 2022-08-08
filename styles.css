@@ -446,7 +446,7 @@ width: 45%;
   transform: translateX(300px);
 }
 .menu{
-  width: 100%;
+  width: 80%;
   height: 27vh;
   position: fixed;
   top: 80px;
