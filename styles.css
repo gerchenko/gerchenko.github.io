@@ -446,7 +446,7 @@ width: 45%;
   transform: translateX(300px);
 }
 .menu{
-  width: 0px;
+  width: 100%;
   height: 27vh;
   position: fixed;
   top: 80px;
@@ -471,17 +471,18 @@ width: 45%;
   width: 0;
 }
 .menu nav ul li a{
-  margin-top: 30px;
+  margin-top: 20px;
   color: #fff;
   width: 200px;
   display: inline-block;
-  padding-left: 50px;
+  text-align: center;
+  align-items: center;
 }
 #icon-menu{
   display: flex;
 }
 .show-lateral {
-  width: 150px;
+  width: 100%;
   transform: translateX(0px);
 }
 }
